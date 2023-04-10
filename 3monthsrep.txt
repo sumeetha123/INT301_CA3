@@ -1,0 +1,16 @@
+Q) Use any open source software to generate your entire system's log report of past 3 months.
+
+	Although there are many ways to find this with and without open source softwares, I used Logwatch to generate this past 3 months!
+
+Steps to install logwatch:
+
+	Sudo apt-get install logwatch 
+
+
+Then the command that we use for getting report of past 3 months is:
+
+	sudo logwatch –range ‘between -30 days and today’
+
+With the help of this command, we can generate a report of range of past 30 days!
+
+
