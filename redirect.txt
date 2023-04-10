@@ -16,4 +16,4 @@ Then the command we need to use to redirect report to email is,
 
 	- sudo logwatch --detail High --range ‘between -90 days and today’ –mailto -s “Logwatch report” sumeethakota@gmail.com
 
-This will help me to redirect report to email address mentioned,
+This will help me to redirect report to email address mentioned!

@@ -1,0 +1,28 @@
+Q)Find partial and full multimedia files(video files) in DataStream
+
+For this I used a tool called foremost!
+
+Command to install foremost 
+	
+	- sudo apt-get installed foremost
+
+create a directory with the name Datastream 
+
+	- mkdir Datastream
+
+View this with the help of ls command
+
+The command that we need to use to view partial and full nultimedia files is, 
+
+	- Foremost -v -t all -i <Datastream>
+
+In the place of datastream we need to give the name of the file we want to recover!
+
+Like,
+
+	- Foremost -v -t all -i video.mp4
+
+
+Here -v = It is verbose mode, this gives info about current state of the program and is highly recommended 
+-t = timestamp of the current directory, so we dont need to delete the output directory for running multiple times!
+-i = input file
