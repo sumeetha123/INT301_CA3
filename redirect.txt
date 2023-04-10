@@ -1,0 +1,19 @@
+To redirect this report to email,
+
+First we need to update system package,
+	
+	- sudo apt-get update
+
+Then we need to install Mail transfer Agent, in my system i installed postfix,
+
+	- sudo apt-get install postfix
+
+To check if it is properly installed,
+
+	- sudo systemctl status postfix
+
+Then the command we need to use to redirect report to email is,
+
+	- sudo logwatch --detail High --range ‘between -90 days and today’ –mailto -s “Logwatch report” sumeethakota@gmail.com
+
+This will help me to redirect report to email address mentioned,
